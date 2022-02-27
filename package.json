@@ -1,0 +1,14 @@
+{
+  "name": "kurs_sass_scss",
+  "version": "1.0.0",
+  "description": "Landing page for course",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.sass css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
